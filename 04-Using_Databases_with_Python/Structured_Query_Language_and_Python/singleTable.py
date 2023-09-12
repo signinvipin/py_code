@@ -1,4 +1,4 @@
-## Create database and table using SQL in python
+## Create database and Single Table using SQL in python
 
 try:
     import sqlite3

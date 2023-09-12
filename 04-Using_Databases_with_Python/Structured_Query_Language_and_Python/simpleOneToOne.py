@@ -57,6 +57,7 @@ try:
 
     # Commit to the connection all the changes made
     dbConnect.commit()
+
     # Close the connection
     dbConnect.close()
 
