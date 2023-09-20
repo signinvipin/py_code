@@ -11,7 +11,7 @@ data = '''
 <stuff>
   <users>
     <user x="2">
-      <id>001</id>
+      <id>001</id> 
       <name>Chuck</name>
     </user>
     <user x="7">
@@ -21,7 +21,7 @@ data = '''
   </users>
 </stuff>
 '''
-
+# stuff is parent to child users, user is parent to child id and child name,
 '''
 import xml.etree.ElementTree as ET
 
